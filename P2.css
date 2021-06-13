@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+html{
+	font-size: 16px;
+}
+header{
+	text-align: center;
+	font-size: 3.5rem;     /* 1em=100% */
+	font-family: 'Staatliches', cursive;
+}
+
+legend{
+	font-size: 1.5rem;
+}
+
+body{
+	background-color: #566f00;
+	color: #e9f0cf;
+	font-family: 'Roboto', sans-serif;
+}
+
+fieldset{
+	background-color: #324001;
+	border-color: rgb(6, 80, 6);
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+}
+
+footer{
+	background-color: #293500;
+	border-color: rgb(6, 80, 6);
+	font-size: .9rem;
+	text-align: center;
+	clear: both;
+}
+
+footer div{
+	padding: 10px;
+}
+
+#copyright{
+	text-align: left;
+}
+
+div a{
+	color: #b7ea00;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #e9f0cf;
+}
+
+#date, #firstname, #lastname, #email, #telephone, #sex, #nationality, #numberofguests, #country{
+	padding: 5px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+
+#personal_details{
+	float: left;
+	width: 50%;
+}
+
+#booking_details{
+	float: right;
+	width: 50%;
+}
+
+.buttons{
+	margin-top: 100px;
+	clear: both;
+}
